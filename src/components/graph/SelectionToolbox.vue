@@ -10,6 +10,7 @@
     <ColorPickerButton />
     <BypassButton />
     <PinButton />
+    <HelpButton />
     <DeleteButton />
     <RefreshButton />
     <ExtensionCommandButton
@@ -26,6 +27,7 @@ import { computed } from 'vue'
 
 import ColorPickerButton from '@/components/graph/selectionToolbox/ColorPickerButton.vue'
 import ExecuteButton from '@/components/graph/selectionToolbox/ExecuteButton.vue'
+import HelpButton from '@/components/graph/selectionToolbox/HelpButton.vue'
 import { useExtensionService } from '@/services/extensionService'
 import { type ComfyCommandImpl, useCommandStore } from '@/stores/commandStore'
 import { useCanvasStore } from '@/stores/graphStore'
