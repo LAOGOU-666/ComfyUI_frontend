@@ -4,26 +4,6 @@
     "title": "API Node(s)",
     "totalCost": "Общая стоимость"
   },
-  "apiNodesNews": {
-    "introducing": "Представляем",
-    "steps": {
-      "step1": {
-        "subtitle": "Настройки > Пользователь > Войти",
-        "title": "Войти/Создать аккаунт:"
-      },
-      "step2": {
-        "subtitle": "Настройки > Кредиты > Купить кредиты",
-        "title": "Купить кредиты:"
-      },
-      "step3": {
-        "title": "Найдите новые API-узлы в разделе 'API Node' и добавьте их на холст"
-      },
-      "step4": {
-        "title": "Запустить!"
-      }
-    },
-    "subtitle": "Все внешние модели теперь доступны в ComfyUI"
-  },
   "apiNodesSignInDialog": {
     "message": "Этот рабочий процесс содержит API Nodes, которые требуют входа в вашу учетную запись для выполнения.",
     "title": "Требуется вход для использования API Nodes"
@@ -101,6 +81,13 @@
       "signUpWithGoogle": "Зарегистрироваться через Google",
       "title": "Создать аккаунт"
     }
+  },
+  "chatHistory": {
+    "cancelEdit": "Отмена",
+    "cancelEditTooltip": "Отменить редактирование",
+    "copiedTooltip": "Скопировано",
+    "copyTooltip": "Скопировать сообщение в буфер",
+    "editTooltip": "Редактировать сообщение"
   },
   "clipboard": {
     "errorMessage": "Не удалось скопировать в буфер обмена",
@@ -277,6 +264,7 @@
     "continue": "Продолжить",
     "control_after_generate": "управление после генерации",
     "control_before_generate": "управление до генерации",
+    "copy": "Копировать",
     "copyToClipboard": "Скопировать в буфер обмена",
     "currentUser": "Текущий пользователь",
     "customize": "Настроить",
@@ -288,6 +276,7 @@
     "disableAll": "Отключить все",
     "disabling": "Отключение",
     "download": "Скачать",
+    "edit": "Редактировать",
     "empty": "Пусто",
     "enableAll": "Включить все",
     "enabled": "Включено",
@@ -1354,6 +1343,7 @@
     "no3dSceneToExport": "Нет 3D сцены для экспорта",
     "noTemplatesToExport": "Нет шаблонов для экспорта",
     "nodeDefinitionsUpdated": "Определения узлов обновлены",
+    "nothingSelected": "Ничего не выбрано",
     "nothingToGroup": "Нечего группировать",
     "nothingToQueue": "Нет заданий в очереди",
     "pendingTasksDeleted": "Ожидающие задачи удалены",

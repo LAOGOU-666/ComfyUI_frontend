@@ -115,7 +115,9 @@
     "learnMore": "Learn more",
     "amount": "Amount",
     "unknownError": "Unknown error",
-    "title": "Title"
+    "title": "Title",
+    "edit": "Edit",
+    "copy": "Copy"
   },
   "manager": {
     "title": "Custom Nodes Manager",
@@ -1261,7 +1263,8 @@
     "failedToAccessBillingPortal": "Failed to access billing portal: {error}",
     "failedToPurchaseCredits": "Failed to purchase credits: {error}",
     "unauthorizedDomain": "Your domain {domain} is not authorized to use this service. Please contact {email} to add your domain to the whitelist.",
-    "useApiKeyTip": "Tip: Can't access normal login? Use the Comfy API Key option."
+    "useApiKeyTip": "Tip: Can't access normal login? Use the Comfy API Key option.",
+    "nothingSelected": "Nothing selected"
   },
   "auth": {
     "apiKey": {
@@ -1382,31 +1385,18 @@
     "notSet": "Not set",
     "updatePassword": "Update Password"
   },
-  "apiNodesNews": {
-    "introducing": "Introducing",
-    "subtitle": "Access all the popular paid models natively in ComfyUI",
-    "steps": {
-      "step1": {
-        "title": "Login/Create an account:",
-        "subtitle": "Settings > User > Login"
-      },
-      "step2": {
-        "title": "Purchase credits:",
-        "subtitle": "Settings > Credits > Buy Credits"
-      },
-      "step3": {
-        "title": "Locate new API Nodes under 'API Node' section and add to the canvas"
-      },
-      "step4": {
-        "title": "Run!"
-      }
-    }
-  },
   "selectionToolbox": {
     "executeButton": {
       "tooltip": "Execute to selected output nodes (Highlighted with orange border)",
       "disabledTooltip": "No output nodes selected"
     }
+  },
+  "chatHistory": {
+    "cancelEdit": "Cancel",
+    "editTooltip": "Edit message",
+    "cancelEditTooltip": "Cancel edit",
+    "copiedTooltip": "Copied",
+    "copyTooltip": "Copy message to clipboard"
   },
   "nodeHelpPage": {
     "inputs": "Inputs",

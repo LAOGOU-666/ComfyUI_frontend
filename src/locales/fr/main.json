@@ -4,26 +4,6 @@
     "title": "Nœud(s) API",
     "totalCost": "Coût total"
   },
-  "apiNodesNews": {
-    "introducing": "Présentation",
-    "steps": {
-      "step1": {
-        "subtitle": "Paramètres > Utilisateur > Connexion",
-        "title": "Connectez-vous / Créez un compte :"
-      },
-      "step2": {
-        "subtitle": "Paramètres > Crédits > Acheter des crédits",
-        "title": "Achetez des crédits :"
-      },
-      "step3": {
-        "title": "Trouvez les nouveaux nœuds API dans la section 'API Node' et ajoutez-les à la toile"
-      },
-      "step4": {
-        "title": "Lancez !"
-      }
-    },
-    "subtitle": "Tous les modèles externes sont désormais disponibles dans ComfyUI"
-  },
   "apiNodesSignInDialog": {
     "message": "Ce flux de travail contient des nœuds API, qui nécessitent que vous soyez connecté à votre compte pour pouvoir fonctionner.",
     "title": "Connexion requise pour utiliser les nœuds API"
@@ -101,6 +81,13 @@
       "signUpWithGoogle": "S'inscrire avec Google",
       "title": "Créer un compte"
     }
+  },
+  "chatHistory": {
+    "cancelEdit": "Annuler",
+    "cancelEditTooltip": "Annuler la modification",
+    "copiedTooltip": "Copié",
+    "copyTooltip": "Copier le message dans le presse-papiers",
+    "editTooltip": "Modifier le message"
   },
   "clipboard": {
     "errorMessage": "Échec de la copie dans le presse-papiers",
@@ -277,6 +264,7 @@
     "continue": "Continuer",
     "control_after_generate": "contrôle après génération",
     "control_before_generate": "contrôle avant génération",
+    "copy": "Copier",
     "copyToClipboard": "Copier dans le presse-papiers",
     "currentUser": "Utilisateur actuel",
     "customize": "Personnaliser",
@@ -288,6 +276,7 @@
     "disableAll": "Désactiver tout",
     "disabling": "Désactivation",
     "download": "Télécharger",
+    "edit": "Modifier",
     "empty": "Vide",
     "enableAll": "Activer tout",
     "enabled": "Activé",
@@ -1354,6 +1343,7 @@
     "no3dSceneToExport": "Aucune scène 3D à exporter",
     "noTemplatesToExport": "Aucun modèle à exporter",
     "nodeDefinitionsUpdated": "Définitions de nœuds mises à jour",
+    "nothingSelected": "Aucune sélection",
     "nothingToGroup": "Rien à regrouper",
     "nothingToQueue": "Rien à ajouter à la file d’attente",
     "pendingTasksDeleted": "Tâches en attente supprimées",
