@@ -62,6 +62,12 @@ export default defineConfig({
         changeOrigin: true
       },
 
+      // Proxy docs markdown from backend
+      '/docs': {
+        target: DEV_SERVER_COMFYUI_URL,
+        changeOrigin: true
+      },
+
       ...(!DISABLE_TEMPLATES_PROXY
         ? {
             '/templates': {
