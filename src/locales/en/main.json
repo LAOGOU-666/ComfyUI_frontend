@@ -13,6 +13,7 @@
     "terminal": "Terminal",
     "logs": "Logs",
     "videoFailedToLoad": "Video failed to load",
+    "audioFailedToLoad": "Audio failed to load",
     "extensionName": "Extension Name",
     "reloadToApplyChanges": "Reload to apply changes",
     "insert": "Insert",
@@ -58,6 +59,8 @@
     "deprecated": "DEPR",
     "loadWorkflow": "Load Workflow",
     "goToNode": "Go to Node",
+    "setAsBackground": "Set as Background",
+    "customBackground": "Custom Background",
     "settings": "Settings",
     "searchWorkflows": "Search Workflows",
     "searchSettings": "Search Settings",
@@ -117,7 +120,9 @@
     "unknownError": "Unknown error",
     "title": "Title",
     "edit": "Edit",
-    "copy": "Copy"
+    "copy": "Copy",
+    "imageUrl": "Image URL",
+    "clear": "Clear"
   },
   "manager": {
     "title": "Custom Nodes Manager",
@@ -204,7 +209,9 @@
     "validation": {
       "maxLength": "Message too long",
       "invalidEmail": "Please enter a valid email address",
-      "selectIssueType": "Please select an issue type"
+      "selectIssueType": "Please select an issue type",
+      "descriptionRequired": "Description is required",
+      "helpTypeRequired": "Help type is required"
     }
   },
   "color": {
@@ -801,6 +808,7 @@
     "Load Default Workflow": "Load Default Workflow",
     "Custom Nodes Manager": "Custom Nodes Manager",
     "Toggle Progress Dialog": "Toggle Progress Dialog",
+    "Open Mask Editor for Selected Node": "Open Mask Editor for Selected Node",
     "New": "New",
     "Clipspace": "Clipspace",
     "Open": "Open",
@@ -884,7 +892,8 @@
     "3D": "3D",
     "Light": "Light",
     "User": "User",
-    "Credits": "Credits"
+    "Credits": "Credits",
+    "API Nodes": "API Nodes"
   },
   "serverConfigItems": {
     "listen": {
@@ -1228,7 +1237,8 @@
     "stopRecording": "Stop Recording",
     "exportRecording": "Export Recording",
     "clearRecording": "Clear Recording",
-    "resizeNodeMatchOutput": "Resize Node to match output"
+    "resizeNodeMatchOutput": "Resize Node to match output",
+    "loadingBackgroundImage": "Loading Background Image"
   },
   "toastMessages": {
     "nothingToQueue": "Nothing to queue",

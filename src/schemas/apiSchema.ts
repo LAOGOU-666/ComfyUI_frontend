@@ -350,6 +350,7 @@ const zNodeBadgeMode = z.enum(
 const zSettings = z.object({
   'Comfy.ColorPalette': z.string(),
   'Comfy.CustomColorPalettes': colorPalettesSchema,
+  'Comfy.Canvas.BackgroundImage': z.string().optional(),
   'Comfy.ConfirmClear': z.boolean(),
   'Comfy.DevMode': z.boolean(),
   'Comfy.Workflow.ShowMissingNodesWarning': z.boolean(),
@@ -421,6 +422,7 @@ const zSettings = z.object({
   'Comfy.NodeBadge.NodeSourceBadgeMode': zNodeBadgeMode,
   'Comfy.NodeBadge.NodeIdBadgeMode': zNodeBadgeMode,
   'Comfy.NodeBadge.NodeLifeCycleBadgeMode': zNodeBadgeMode,
+  'Comfy.NodeBadge.ShowApiPricing': z.boolean(),
   'Comfy.QueueButton.BatchCountLimit': z.number(),
   'Comfy.Queue.MaxHistoryItems': z.number(),
   'Comfy.Keybinding.UnsetBindings': z.array(zKeybinding),
